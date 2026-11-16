@@ -18,18 +18,10 @@
 
     main { padding: 2rem; }
 
-    .line {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0.2em;
-    }
-
-    img {
+    .image {
       width: 1.5em;
       height: 1.1em;
-      object-fit: cover;
+      object-fit: contain;
       vertical-align: middle;
     }
   </style>
@@ -37,13 +29,9 @@
 <body>
   <main>
     <div>MY BODY IS A MACHINE THAT TURNS</div>
-    <div class="line">
-      <img src="javascript.jpg" alt="JavaScript">
-    </div>
+    <div><img class="image" src="javascript-logo.png" alt="JavaScript"></div>
     <div>INTO</div>
-    <div class="line">
-      <img src="garbage.jpg" alt="Garbage">
-    </div>
+    <div><img class="image" src="garbage-can.png" alt="Garbage can"></div>
   </main>
 </body>
 </html>
